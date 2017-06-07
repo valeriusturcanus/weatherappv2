@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="main.js">
+    </script>
+    <script src="skycons.js">
+
+    </script>
+    <title>Weather API</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons-wind.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>Local Weather App</h1>
+    <div class="container">
+        <div class="button farenheight">
+            Farenheight
+        </div>
+        <div class="button celsius">
+            Celsius
+        </div>
+        <div class="weather">
+            <!-- <img src="img/cloudy.png" class="" alt=""> -->
+            <canvas id="icon1" width="150" height="150">
+            </canvas>
+            <p class="inline">
+                <!-- <i class="wi wi-night-sleet">something</i> -->
+                <span class="description"></span>
+                <span class="degInt"></span>
+            </p>
+            <p class="address"></p>
+
+        </div>
+    </div>
+    <div id="GeoResults">
+
+    </div>
+
+</body>
+
+</html>
